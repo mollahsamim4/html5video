@@ -1,0 +1,91 @@
+body{
+     background: linear-gradient(45deg, #0000004a, #99a9285e),linear-gradient(45deg, #4aa0718a, transparent),url(../images/clock.gif);
+}
+/*
+.player{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+ overflow: hidden;
+
+
+}
+.player:hover .player_controls{
+ transition: transform 0.5s;
+    transform: translateY(-18%);
+
+}
+.player_controls{
+  position: absolute;
+    width: 100%;
+    bottom: 3px;
+    left: 3px;
+  
+    transform: translateY(100%);
+   
+
+}
+.player .player_video_viewer{
+  width: 100%;
+  height: 100%;
+  box-shadow: -2px 2px 16px 1px black;
+  
+}
+.player .progress{
+  width: 100%;
+  height: 10px;
+  position: relative;
+background: rgba(0,0,0,0.2);
+  margin:0;
+  padding: 0;
+display: flex;
+
+ cursor: e-resize
+
+}
+.player .progress .progress_filled{
+  background: dodgerblue;
+  flex: 0;
+  flex-basis: 0%;
+  transition: all 0.1s;
+
+}
+*/
+
+/*Player Container Css is given Below*/
+.player{
+    width: 500px;
+    height: 300px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.player .video_view{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.player:hover .player_controls{
+  transition: transform 0.5s;
+  transform:translateY(-18%);
+
+}
+
+.player_controls{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition:transform 0.5s;
+}
+.player_controls .progress{
+   display: flex;
+   background: rgba(0,0,0,0.2);
+   height: 9px;
+}
+.player_controls .progress .progress_filled{
+  background: #ff9a1e;
+  flex-basis:0%;
+}
